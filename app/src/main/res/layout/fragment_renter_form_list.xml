@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard.Police.RenterFormListFragment"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/text_background"
+        android:gravity="center"
+        android:text="Renter Form List"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+   <Spinner
+       android:id="@+id/verification_status_sp"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:layout_marginTop="20dp"
+       android:gravity="center"
+       android:textAlignment="center"
+       />
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Search Here"
+        android:gravity="center"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/renter_from_rv"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

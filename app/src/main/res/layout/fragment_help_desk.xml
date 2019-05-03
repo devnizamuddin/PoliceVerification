@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard.HelpDeskFragment"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="25sp"
+        android:text="Help Desk"
+        android:gravity="center"
+        android:background="@drawable/text_background"
+        android:textColor="@color/white"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Any Emergency"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_one"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="999"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_one"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Police OCR Mob"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_two"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="01769690033"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_two"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Police OCR Phn 1"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_three"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="02-9561967"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_three"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Police OCR Phn 2"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_four"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="02-9560661"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_four"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ambulance 1"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_five"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="01720448666"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_five"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Ambulance 2"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_six"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="01819137479"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_six"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:textSize="18sp"
+            android:text="Fire Service"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/number_seven"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="02-9555555"
+            android:layout_weight="4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/call_seven"
+            android:src="@drawable/call_drawable_icon"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Kurmitola Fire Service"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/number_eight"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="02-9713399"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/call_eight"
+        android:src="@drawable/call_drawable_icon"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Tejgoan Fire Service"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/number_nine"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="01730-002226"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/call_nine"
+        android:src="@drawable/call_drawable_icon"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>    <LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="10"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:textSize="18sp"
+        android:text="Sutrapur Fire Service"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/number_ten"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="02-7119759"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/call_ten"
+        android:src="@drawable/call_drawable_icon"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

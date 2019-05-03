@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1082046086872",
+    "firebase_url": "https://policeverification.firebaseio.com",
+    "project_id": "policeverification",
+    "storage_bucket": "policeverification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082046086872:android:1167948bbaecca97",
+        "android_client_info": {
+          "package_name": "com.example.policeverification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082046086872-ln0rsm4opgamdd7mbum48a23kj2mh8ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.policeverification",
+            "certificate_hash": "73cd0fba79eb6e898b82ba9f256713a15362fc55"
+          }
+        },
+        {
+          "client_id": "1082046086872-nh8m5t8l3j0kk4o018ud50aid55b7nge.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU66796n08lUuXjjz_xWOtLvGO8ypcte4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1082046086872-nh8m5t8l3j0kk4o018ud50aid55b7nge.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

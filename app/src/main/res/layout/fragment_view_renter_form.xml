@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashBoard.ViewRenterFormFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/text_background"
+        android:gravity="center"
+        android:text="View Renter Form"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/verification_status_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text=""
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/greenLight"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20sp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name" />
+
+            <TextView
+                android:id="@+id/name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nizam Uddin Shamrat"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Father's name" />
+
+            <TextView
+                android:id="@+id/father_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Golam Mostafa"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Mother Name" />
+
+            <TextView
+                android:id="@+id/mother_name_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nilufa Yeasmen"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="NID Card No" />
+
+            <TextView
+                android:id="@+id/nid_number_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="65465464654654" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Occupation" />
+
+            <TextView
+                android:id="@+id/occupation_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service Holder"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Permanent Address" />
+
+            <TextView
+                android:id="@+id/permanent_address_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jhalakati, Nalchity"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Emergency No" />
+
+            <TextView
+                android:id="@+id/emergency_no_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="01798965464" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Phone Number" />
+
+            <TextView
+                android:id="@+id/phone_number_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="019897986546"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Previous Home Owner No" />
+
+            <TextView
+                android:id="@+id/previous_no_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="019849464645"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Present Home Owner No" />
+
+            <TextView
+                android:id="@+id/present_no_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01654654654"
+                android:textSize="20sp"
+                />
+
+            <Button
+                android:id="@+id/verify_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background_light"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Verify"
+                android:textAllCaps="false"
+                android:textColor="@color/greenDark" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

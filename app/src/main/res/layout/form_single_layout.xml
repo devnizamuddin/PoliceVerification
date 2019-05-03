@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/white_layout_background"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nizam Uddin Shamrat"
+        android:textColor="@color/wetasphalt"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/phone_no_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="01989840304"
+        android:textColor="@color/midNightBlue"
+        android:textSize="10dp" />
+
+</LinearLayout>

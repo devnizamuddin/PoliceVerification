@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Police Verification</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_map_api">AIzaSyCe-mOi2Z2lyi3CiBTm_aUh6LcKyck0Elw</string>
+
+    <string-array name="role_array">
+
+        <item>Renter</item>
+        <item>Home Owner</item>
+        <item>Police Verifier</item>
+
+    </string-array>
+
+    <string-array name="verification_status_array">
+
+        <item>All</item>
+        <item>Verified</item>
+        <item>Unverified</item>
+
+    </string-array>
+</resources>

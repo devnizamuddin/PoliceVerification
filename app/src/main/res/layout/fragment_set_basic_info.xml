@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Basic.SetBasicInfoFragment">
+
+    <TextView
+        android:text="Set Basic Info"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/text_background"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Name"
+        android:textColor="@color/greenDark"
+        android:textSize="20dp" />
+
+    <EditText
+        android:paddingLeft="20dp"
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_light" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Role"
+        android:textColor="@color/greenDark"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:paddingLeft="20dp"
+        android:id="@+id/role_sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_light" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:text="Submit"
+        android:textColor="@color/greenDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background_light"
+        />
+</LinearLayout>

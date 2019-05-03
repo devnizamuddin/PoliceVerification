@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoard.NoticeFragment"
+    android:background="@color/clouds"
+    >
+<TextView
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:text="Notice"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:background="@drawable/text_background"
+    android:layout_alignParentTop="true"
+    />
+
+    <ImageView
+        android:id="@+id/popUpMenu"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/dot_menu"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_margin="20dp"
+        android:id="@+id/notice_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text"
+        ></android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/add_drawable"
+        android:id="@+id/fab"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
